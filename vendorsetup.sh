@@ -1,0 +1,3 @@
+add_lunch_combo sunnybread_fascinate-userdebug
+add_lunch_combo sunnybread_fascinate-eng
+
