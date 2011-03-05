@@ -1,0 +1,18 @@
+***Assuming you are already synced to jt1134's repository***
+
+To build, extract to ~/android/system/vendor. Do not rename. Run these commands via terminal:
+
+cd ~/android/system
+. build/envsetup.sh
+lunch 
+make otapackage
+
+____________________
+
+Note: You can speed up the compile by running this command: 
+
+make -j# otapackage 
+
+The # represents any number higher than 1. I usually compile with... 
+
+make -j40 otapackage
